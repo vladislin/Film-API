@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'whatislove',
-    'rest_swagger',
+    'drf_yasg2',
 ]
 
 MIDDLEWARE = [
