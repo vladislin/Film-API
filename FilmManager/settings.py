@@ -133,3 +133,5 @@ REST_FRAMEWORK = {
 
 django_heroku.settings(locals())
 
+CORS_ORIGIN_ALLOW_ALL = True
+
