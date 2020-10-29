@@ -1,3 +1,5 @@
+import django_heroku
+
 """
 Django settings for FilmManager project.
 
@@ -126,3 +128,5 @@ REST_FRAMEWORK = {
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
     'PAGE_SIZE': 10
 }
+
+django_heroku.settings(locals())
